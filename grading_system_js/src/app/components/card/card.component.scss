@@ -1,0 +1,53 @@
+body{
+  margin-top: 10px;
+  background: black;
+}
+
+.order-card {
+  color: rgb(7, 7, 7);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+  width: 25%;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 50;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 7px -4px rgba(240, 6, 6, 0.2);
+}
+
+.card:first-child {
+  background-color: rgb(213, 0, 0);
+  
+  
+}
+
+.card:nth-child(2) {
+  background-color: rgb(46, 125, 50);
+}
+
+.card:nth-child(3) {
+  background-color: rgb(255, 111, 0);
+}
+
+.text-center {
+  color: black;
+  
+}
+
+
+.bg-c-blue{
+  background: linear-gradient(65deg, pink, rgb(45, 8, 255));
+}
+.card .card-block {
+  padding: 10px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
