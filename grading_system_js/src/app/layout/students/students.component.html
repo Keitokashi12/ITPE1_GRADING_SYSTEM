@@ -1,53 +1,5 @@
-
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-<div class="main-title">
-  <h2>Dashboard Grading System</h2>
-</div>
-
-<div class="main-cards">
-
-  <div class="card">
-    <div class="card-inner">
-      <h2>Users</h2>
-      <span class="material-icons-outlined">group</span>
-
-    </div>
-    <h1>123</h1>
-  </div>
-
-  <div class="card">
-    <div class="card-inner">
-      <h2>Subjects</h2>
-      <span class="material-icons-outlined">subject</span>
-    </div>
-    <h1>123</h1>
-  </div>
-
-  <div class="card">
-    <div class="card-inner">
-      <h2>Total Classes</h2>
-      <span class="material-icons-outlined">school</span>
-    </div>
-    <h1>123</h1>
-  </div>
-
-  <div class="card">
-    <div class="card-inner">
-      <h2>Results</h2>
-      <span class="material-icons-outlined">note</span>
-    </div>
-    <h1>123</h1>
-  </div>
-
-</div>
-
-
-
-
-
+<app-card *ngFor="let item of cardData"
+    title = "{{item.title}}"
+    value ="{{item.value}}"
+    content ="{{item.content}}"
+></app-card>
